@@ -1,3 +1,18 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
+header{
+    background-color: #1ABC9C;
+}
+
+.nav_top{
+    background-color: #2C3E50;
+    height: 3rem;
+}
+
+.img_profile{
+    height: 100px;
+    background-color: white;
+    display: inline-block;
+}
