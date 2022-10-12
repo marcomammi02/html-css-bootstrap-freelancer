@@ -13,7 +13,6 @@ header,
 }
 
 .s_card{
-    height: 180px;
     background-color: orange;
     border-radius: 1rem;
     overflow: hidden;
@@ -29,4 +28,12 @@ header,
 
 .fa-star{
     font-size: 2rem;
+}
+
+.s_star_dark .fa-star{
+    color: #2C3E50;
+}
+
+.s_star_dark .s_line{
+    background-color: #2C3E50;
 }
