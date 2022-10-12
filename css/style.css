@@ -3,13 +3,13 @@ body{
 }
 
 header,
-.s_about{
+.s_about,
+.s_btn_send{
     background-color: #1ABC9C;
 }
 
 .s_nav_top{
-    background-color: #2C3E50;
-    height: 3rem;
+    background-color: #2C3E50; 
 }
 
 .s_card{
@@ -17,4 +17,16 @@ header,
     background-color: orange;
     border-radius: 1rem;
     overflow: hidden;
+}
+
+.s_nav_link:hover{
+    color: #1ABC9C;
+}
+
+.s_line{
+    border-radius: 2rem;
+}
+
+.fa-star{
+    font-size: 2rem;
 }
