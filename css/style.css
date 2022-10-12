@@ -6,13 +6,13 @@ header{
     background-color: #1ABC9C;
 }
 
-.nav_top{
+.s_nav_top{
     background-color: #2C3E50;
     height: 3rem;
 }
 
-.img_profile{
-    height: 100px;
-    background-color: white;
-    display: inline-block;
+.s_card{
+    height: 150px;
+    background-color: orange;
+    border-radius: 2rem;
 }
