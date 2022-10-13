@@ -6,10 +6,16 @@ header,
 .s_about,
 .s_btn_send{
     background-color: #1ABC9C;
+    border-color: #000000;
 }
 
-.s_nav_top{
+.s_nav_top,
+.s_copyright_footer{
     background-color: #2C3E50; 
+}
+
+.s_nav_link:hover{
+    color: #1ABC9C;
 }
 
 .s_card{
@@ -38,10 +44,6 @@ header,
     font-size: 5rem;
 }
 
-.s_nav_link:hover{
-    color: #1ABC9C;
-}
-
 .s_line{
     border-radius: 2rem;
 }
@@ -56,4 +58,32 @@ header,
 
 .s_star_dark .s_line{
     background-color: #2C3E50;
+}
+
+.s_btn_send:hover{
+    color: #000000;
+    background-color: #FFFFFF;
+    border-color: #000000;
+}
+
+.s_info_section{
+    background-color: #3A546D;
+}
+
+.s_footer_icon{
+    font-size: 2rem;
+    width: 57px;
+    height: 55px;
+    padding: .5rem;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    margin: .5rem;
+}
+
+.s_evidenced{
+    color: #1ABC9C;
+}
+
+.s_copy_string{
+    font-size: .8rem;
 }
